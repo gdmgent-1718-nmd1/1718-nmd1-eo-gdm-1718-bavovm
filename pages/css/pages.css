@@ -16,3 +16,21 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+/* Afbeeldingen concurrentieanalyse */
+section {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.media { 
+    min-width: 0
+    }
+   img {
+    width: 450px;
+    height: 300px;
+    max-width: 100%; 
+    max-height: 300px; 
+    border: 4px solid hsla(219, 61%, 63%, 1);
+    border-radius: 10px;
+    }
