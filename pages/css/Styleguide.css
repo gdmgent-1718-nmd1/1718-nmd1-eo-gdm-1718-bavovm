@@ -1,0 +1,291 @@
+content{
+    width:700px;   
+}
+
+body{
+    background-color: #000000;
+    width: 700px;
+    margin: auto;
+}
+
+.Styleguide{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF; 
+}
+
+.Styleguide2{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #000000; 
+}
+.rechthoek{
+    display:flex;
+	display: flex;
+	flex-direction: column;
+    flex-wrap: wrap;
+    width: 100vw;
+    height: 100vw;
+}
+
+.Deel1{
+    background:#678dc9;
+    margin: 20px;
+    padding: 15px;
+}
+
+    .Kleurenpallet{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    }
+
+        .Zwart{
+            width: 250px;
+            background: #000000;
+            outline: 2px solid #000000;
+            color: #FFFFFF;
+            text-align: center;
+            padding: 10px;
+            line-height: 30px;
+            margin: 10px;
+            }
+
+        .Wit{
+            width: 250px;
+            background: #ffffff;
+            outline: 2px solid #000000;
+            color: #000000;
+            text-align: center;
+            padding: 10px;
+            line-height: 30px;
+            margin: 10px;
+         }
+
+        .Blauw{
+            width: 250px;
+            background:#678dc9;
+            outline: 2px solid #000000;
+            color: #FFFFFF;
+            line-height: 25px;
+            padding: 10px;
+            margin: 10px;
+          }
+
+        .Lichtgrijs{
+            width: 250px;
+            background:#d8d9d8;
+            outline: 2px solid #000000;
+            color: #FFFFFF;
+            line-height: 25px;
+            padding: 10px;
+            margin: 10px;
+         }
+
+.Deel2{
+    background:#678dc9;
+    margin: 20px;
+    padding: 15px;
+    align-content: center;
+}
+}
+.Deel3
+{
+    background:#ffffff;
+    margin: 20px;
+    padding: 15px;
+}
+
+.Lettertype1{ 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.tussentekst{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18pt; 
+    text-align: center;
+    color: #FFFFFF;
+}
+
+        .font1{ 
+            font-family: 'Rammetto One', cursive;
+            font-size: 40pt; 
+            text-align: center;
+        }
+
+        .font2{ 
+            font-family: 'Rammetto One', cursive;
+            font-size: 18pt; 
+            text-align: center;
+        }
+
+        .font3{ 
+            font-family: 'Rammetto One', cursive;
+            font-size: 30pt;
+            text-align: center; 
+        }
+
+.Lettertype2{ 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+        .fonta{
+            font-family: 'Gilda Display', serif;
+            font-size: 12pt;
+            text-align: center;
+}
+
+        .fontb{
+            font-family: 'Gilda Display', serif;
+            font-size: 18pt;
+            text-align: center;
+}
+        .fontc{
+            font-family: 'Gilda Display', serif;
+            font-size: 14pt;
+            text-align: center;
+
+}
+        .fontd{
+            font-family: 'Gilda Display', serif;
+            font-size: 11pt;
+            text-align: center;
+
+}
+
+.Lettertype3{ 
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #FFFFFF;
+}
+        .font1a{
+            font-family: 'PT Sans', sans-serif;
+            font-size: 12pt;
+            text-align: center;
+        }
+        
+        .font1b{
+            font-family: 'PT Sans', sans-serif;
+            font-size: 12pt;
+            text-align: center;
+        } 
+
+.Deel6
+{
+    background:#ffffff;
+    margin: 20px;
+    padding: 15px;
+}
+
+        .knop1{
+            font-family: 'Gilda Display', serif;
+            font-size: 12pt;
+            text-transform: uppercase;
+            text-align: center;
+            color: #ffffff;
+            background:#678dc9;
+            text-decoration: none;
+            width: 100px;
+            padding: 20px;
+            margin: 10PX 210px;
+    
+}
+        .knop1:hover{
+            font-family: 'Gilda Display', serif;
+            font-size: 12pt;
+            text-transform: uppercase;
+            text-align: center;
+            background:#ffffff;
+            color: #678dc9;
+            text-decoration: none;
+            width: 100px;
+            padding: 20px;
+            margin: 10PX 210px;
+            border:1px solid #678dc9;
+}
+        .knop2{
+            font-family: 'Gilda Display', serif;
+            font-size: 12pt;
+            text-transform: uppercase;
+            text-align: center;
+            color: #ffffff;
+            background: #000000;;
+            text-decoration: none;
+            width: 100px;
+            padding: 20px;
+            margin: 10PX 210px;
+}
+
+        .knop2:hover{
+            font-family: 'Gilda Display', serif;
+            font-size: 12pt;
+            text-transform: uppercase;
+            text-align: center;
+            background:#ffffff;
+            color: #000000;
+            text-decoration: none;
+            width: 100px;
+            padding: 20px;
+            margin: 10PX 210px;
+            border:1px solid #000000;
+}
+
+            .knop3{
+            font-family: 'PT Sans', sans-serif;
+            font-size: 14pt;
+            text-transform: uppercase;
+            text-align: center;
+            color: #000000;
+            background: #FFFFFF;;
+            text-decoration: none;
+            width: 100px;
+            padding: 20px;
+            margin: 10PX 210px;
+            border:3px dotted #678dc9;
+}
+
+            .knop4{
+            font-family: 'PT Sans', sans-serif;
+            font-size: 14pt;
+            text-transform: uppercase;
+            text-align: center;
+            color: #000000;
+            background: #FFFFFF;;
+            text-decoration: none;
+            width: 100px;
+            padding: 20px;
+            margin: 10PX 210px;
+            border:3px dotted #678dc9;
+}    
+
+p{
+    font-family: 'PT Sans', sans-serif;
+    text-align: center;
+}
+
+.iconen{
+    text-align: center;
+}
+
