@@ -34,3 +34,158 @@ section {
     border: 4px solid hsla(219, 61%, 63%, 1);
     border-radius: 10px;
     }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: 400;
+        letter-spacing: -.022em;
+        font-synthesis: none;
+        -moz-font-feature-settings: 'kern';
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        color: #333;
+        line-height: 1.5em;
+        padding: 25px;
+    }
+    
+    img {
+        max-width: 100%; /* Afbeeldingen responsive maken */
+    }
+    
+    /* Voeg jouw css hieraan toe */
+    p.titel {
+        text-transform: uppercase;
+        font-family: Karla;
+        font-weight: normal;
+        font-size: 57px;
+        color: #a2d256;
+    }
+    
+    p.subtitel {
+        text-transform: lowercase;
+        font-family: Karla;
+        font-weight: bold;
+        font-size: 40px;
+        color: #E3E954;
+    }
+    
+    p.tekst {
+        text-transform: lowercase;
+        font-family: avenir;
+        font-weight: normal;
+        font-size: 20px;
+        color: #000000;
+    }
+    
+     a{
+        text-transform: lowercase;
+        font-family: avenir;
+        font-weight: normal;
+        text-decoration: underline;
+        font-size: 20px;
+        color: #6F8DD9;
+    }
+    a:link {
+        color: #6F8DD9;
+    }
+    a:visited {
+        color: black;
+    }
+    a:hover {
+        color: #50df5a;
+    }
+    a:active {
+        color: red;
+    }
+    
+    input {
+        border: 2px solid #6F8DD9;
+        color: #000000;
+    }
+    input.submit:hover {
+        background-color: #6F8DD9;
+    }
+    input.submit:active {
+        background-color: #6F8DD9;
+    }
+    input.submit:link {
+        background-color: #6F8DD9;
+    }
+    input.text {
+        color:  #6F8DD9;
+    }
+    input.text:focus {
+        color:  #6F8DD9;
+    }
+    .kleur1{
+        background: #50df5a;
+        font-family: avenir;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+    }
+    .kleur2{
+        background: #6F8DD9;
+        font-family: avenir;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+    }
+    .kleur3{
+        background: #a2d256;
+        font-family: avenir;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+    }
+    .kleur4{
+        background: #e3e954;
+        font-family: avenir;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+    }
+    .kleur5{
+        background: #dfd250;
+        font-family: avenir;
+        width: 200px;
+        height: 200px;
+        text-align: center;
+    }
+    img:hover{
+        background-color: #6F8DD9;
+    }
+    a:link img {
+        opacity: 1.0;
+        filter: alpha(opacity=100); /* For IE8 and earlier */
+      }
+      a:hover img {
+        opacity: 0.6;
+        filter: alpha(opacity=60); /* For IE8 and earlier */
+      }
+      .btn{
+        width: 100;
+        height: 50;
+        padding: 5px 16px; 
+        border-radius: 3px; 
+        text-decoration: none;
+        color:#FFFFFF;
+        font-family: Karla;
+        background: #a2d256; /* Old Browsers */
+        background: -webkit-linear-gradient(top left,#a2d256,#e3e954); /*Safari 5.1-6*/
+        background: -o-linear-gradient(top left,#a2d256,#e3e954); /*Opera 11.1-12*/
+        background: -moz-linear-gradient(top left,#a2d256,#e3e954); /*Fx 3.6-15*/
+        background: linear-gradient(top left, #a2d256, #e3e954); /*Standard*/
+        }
+    
+        a.btn:link {
+            color: #FFFFFF;
+        }
+        a.btn:visited {
+            color: black;
+        }
+        a.btn:hover {
+            color: #6F8DD9;
+        }
+        a.btn:active {
+            color: #FFFFFF;
